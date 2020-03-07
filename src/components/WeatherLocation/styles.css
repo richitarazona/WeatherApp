@@ -1,0 +1,18 @@
+.weatherLocationCont {
+    width: 100%;
+    text-align: left;
+    padding-left: 15px;
+    color: #888;
+    line-height: 35px;
+}
+
+.locationCont {
+    width: 400px;
+    padding: 15px;
+    font-family: 'roboto', 'sans.serif';
+    box-shadow: 10px 10px 10px;
+}
+
+.locationCont h1 {
+    margin: 0;
+}

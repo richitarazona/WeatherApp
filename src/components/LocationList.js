@@ -20,7 +20,7 @@ const LocationList = ({cities, onSelectedLocation}) =>{
         // iteramos las cites con .map y obtenemos un weatherLocati// Creamos la clave para que React recuerde que al actu
         cities.map( (city) => 
         <WeatherLocation 
-        key={city} 
+        key={city}
         city = {city}
         LocationClick ={ () => handleWeatherLocation(city)}>
           

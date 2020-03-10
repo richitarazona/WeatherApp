@@ -9,7 +9,6 @@ import WeatherLocation from './WeatherLocation';
 // Recibimos cities como parametro
 const LocationList = ({cities, onSelectedLocation}) =>{
 
-    console.log("handleWEatherLocation");
 // Recibe como parametro city
     const handleWeatherLocationClick = city => {
     console.log("handleWEatherLocation");

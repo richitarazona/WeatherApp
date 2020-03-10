@@ -8,7 +8,7 @@ const cities = [
   "Pamplona,es",
   "Tarazona,es",
   "Medellin,col",
-  "Medellin,col",
+  "Rusia,ru",
 ];
 class App extends Component {
   handleSelectedLocation = city => {

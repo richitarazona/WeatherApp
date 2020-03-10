@@ -36,12 +36,12 @@ const getWeahterIcon = (weatherState) => {
     return <WeatherIcons className="wicon" name={"rain"} size={sizeIcons}></WeatherIcons>
     
 }
-const WeatherTemperature = ({ temperature, wheatherState }) => (
+const WeatherTemperature = ({ temperature, weatherState }) => (
 
 
     <div className="weatherTemperatureCont">
         {/* el codigo javascript va siempre entre llaves */}
-        {getWeahterIcon(wheatherState)}
+        {getWeahterIcon(weatherState)}
           <span className="tempetarure">{`${temperature}`}</span> 
         <span className="tempetarureType">{`Cº`}</span>
         </div>
